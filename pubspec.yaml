@@ -1,7 +1,7 @@
 name: adaptive_icons
 description: A series of icons that adapt to the current platform's look.
 
-version: 1.0.1
+version: 1.1.0
 
 homepage: https://github.com/zippa-pizza/adaptive_icons
 repository: https://github.com/zippa-pizza/adaptive_icons
@@ -13,7 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_adaptive: ^2.1.0
+  flutter_adaptive: ^2.1.1
 
 dev_dependencies:
   flutter_test:
