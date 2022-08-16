@@ -232,6 +232,11 @@ class AdaptiveIcons {
       ? CupertinoIcons.photo_on_rectangle
       : material.Icons.photo_library;
 
+  /// - `Android`: [material.Icons.pie_chart]
+  /// - `iOS`: [CupertinoIcons.chart_pie]
+  IconData get pieChart =>
+      context.isIOS ? CupertinoIcons.chart_pie : material.Icons.pie_chart;
+
   /// - `Android`: [material.Icons.place]
   /// - `iOS`: [CupertinoIcons.location]
   IconData get place =>
