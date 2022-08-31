@@ -314,6 +314,6 @@ class AdaptiveIcons {
       : material.Icons.rate_review;
 }
 
-extension BuildContextIsIOS on BuildContext {
+extension on BuildContext {
   bool get isIOS => material.Theme.of(this).platform == TargetPlatform.iOS;
 }
