@@ -1,3 +1,7 @@
+## 1.2.1
+
+- Removed export of the `BuildContextIsIos` extension
+
 ## 1.2.0
 
 - Removed dependency on `flutter_adaptive`
