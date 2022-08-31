@@ -1,3 +1,7 @@
+## 1.2.0
+
+- Removed dependency on `flutter_adaptive`
+
 ## 1.1.0
 
 - Added `pieChart` icon
