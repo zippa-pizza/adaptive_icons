@@ -3,7 +3,6 @@ library adaptive_icons;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' as material;
-import 'package:flutter_adaptive/platform.dart';
 
 class AdaptiveIcons {
   final BuildContext context;
@@ -313,4 +312,8 @@ class AdaptiveIcons {
   IconData get writeReview => context.isIOS
       ? material.Icons.rate_review_outlined
       : material.Icons.rate_review;
+}
+
+extension BuildContextIsIOS on BuildContext {
+  bool get isIOS => material.Theme.of(this).platform == TargetPlatform.iOS;
 }
