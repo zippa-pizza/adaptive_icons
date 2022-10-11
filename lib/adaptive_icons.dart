@@ -122,6 +122,16 @@ class AdaptiveIcons {
   IconData get explore =>
       context.isIOS ? CupertinoIcons.compass : material.Icons.explore;
 
+  /// - `Android`: [material.Icons.favorite]
+  /// - `iOS`: [CupertinoIcons.heart_fill]
+  IconData get favorite =>
+      context.isIOS ? CupertinoIcons.heart_fill : material.Icons.favorite;
+
+  /// - `Android`: [material.Icons.favorite_outline]
+  /// - `iOS`: [CupertinoIcons.heart]
+  IconData get favoriteOutline =>
+      context.isIOS ? CupertinoIcons.heart : material.Icons.favorite_outline;
+
   /// - `Android`: [material.Icons.filter_list]
   /// - `iOS`: [CupertinoIcons.line_horizontal_3_decrease]
   IconData get filterList => context.isIOS
@@ -133,6 +143,11 @@ class AdaptiveIcons {
   IconData get flipCamera => context.isIOS
       ? CupertinoIcons.camera_rotate_fill
       : material.Icons.flip_camera_android;
+
+  /// - `Android`: [material.Icons.help]
+  /// - `iOS`: [CupertinoIcons.question_circle]
+  IconData get help =>
+      context.isIOS ? CupertinoIcons.question_circle : material.Icons.help;
 
   /// - `Android`: [material.Icons.home]
   /// - `iOS`: [CupertinoIcons.home]
@@ -245,6 +260,17 @@ class AdaptiveIcons {
   /// - `iOS`: [CupertinoIcons.printer]
   IconData get print =>
       context.isIOS ? CupertinoIcons.printer : material.Icons.print;
+
+  /// - `Android`: [material.Icons.qr_code]
+  /// - `iOS`: [CupertinoIcons.qrcode]
+  IconData get qrCode =>
+      context.isIOS ? CupertinoIcons.qrcode : material.Icons.qr_code;
+
+  /// - `Android`: [material.Icons.qr_code_scanner]
+  /// - `iOS`: [CupertinoIcons.qrcode_viewfinder]
+  IconData get qrCodeScanner => context.isIOS
+      ? CupertinoIcons.qrcode_viewfinder
+      : material.Icons.qr_code_scanner;
 
   /// - `Android`: [material.Icons.receipt]
   /// - `iOS`: [material.Icons.receipt_outlined]
