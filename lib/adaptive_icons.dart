@@ -333,6 +333,11 @@ class AdaptiveIcons {
       ? CupertinoIcons.arrow_up_circle_fill
       : material.Icons.update;
 
+  /// - `Android`: [material.Icons.upload]
+  /// - `iOS`: [CupertinoIcons.cloud_upload]
+  IconData get upload =>
+      context.isIOS ? CupertinoIcons.cloud_upload : material.Icons.upload;
+
   /// - `Android`: [material.Icons.rate_review]
   /// - `iOS`: [material.Icons.rate_review_outlined]
   IconData get writeReview => context.isIOS
