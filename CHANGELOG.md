@@ -1,3 +1,7 @@
+## 1.4.0
+
+- Added `upload` icon
+
 ## 1.3.0
 
 - Added `favorite` icon
